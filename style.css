@@ -1,0 +1,125 @@
+@font-face {
+    font-family: hacked;
+    src: url(8693.ttf);
+}
+.zagolovok{
+    font-family: hacked;
+}
+h1{
+    font-family: hacked;
+}
+h1 .hover{
+    display: none;
+}
+h1 .nothover{
+    display: inline-block;
+}
+h1:hover .hover{
+    display: inline-block;
+}
+h1:hover .nothover{
+    display: none;
+}
+.main_body img{
+    transition: all 1s;
+    position: relative;
+    margin-top: 1px;
+}
+.main_body img:hover{
+    width: 100%
+}
+body{
+    color: greenyellow;
+    background-color: black;
+}
+.menu .u{
+    font-size: 30px;
+    width: 300px;
+    font-family: hacked;
+    margin-bottom: 1px;
+    border:solid 6px;
+    z-index: 1;
+    background-color: black;
+}
+.menu{
+    width: 300px;
+    position: absolute;
+    margin-top: 30px;
+    background-color: black;
+    z-index: 2;
+}
+.menu_copy{
+    width: 300px;
+    position: relative;
+    height: 200px;
+}
+.main_body{
+    width: 60%;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.zagl{
+    margin: auto;
+    width: 300px;
+    font-family: hacked;
+    font-size: 50px;
+    border:solid;
+    text-align: center;
+}
+.main_body img{
+    width: 700px;
+}
+a{
+    text-decoration: none;
+    color:greenyellow;
+}
+.u+img{
+    top: 0px;
+    left:0px;
+    z-index: -1;
+    position: absolute;
+    height: 250px;
+    transition: all 1s;
+}
+.u:hover{
+    background-color: green;
+}
+.u:hover+img{
+    left:300px;
+}
+.map{
+    width: 300px;
+    margin: auto;
+}
+.main_body a{
+    cursor: default;
+}
+.zagl:hover{
+    background-color: green;
+}
+#this_padge div{
+    opacity: 0;
+    position: absolute;
+}
+#this_padge:hover div{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    
+}
+.zagl_index{
+    border: none;
+    margin: auto;
+    width: 50%;
+}
+.dot div{
+    display: none;
+    font-size: 30px;
+}
+.dot{
+    font-size: 30px;
+    font-family: "Arial Black";
+}
+.dot:hover div{
+    display: inline-block;
+}
